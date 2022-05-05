@@ -1,0 +1,119 @@
+    body{
+        background: #eee;
+        margin: 0;
+        padding: 0;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        min-height: 96vh;
+        box-sizing: border-box;
+      }
+     .container{
+       width: 90%;
+       box-shadow: 0 0 20px 0px rgba(0,0,0,0.4);
+       border-radius: 20px;
+      
+     }
+     
+     header{
+       color: #fff;
+       margin-top: -30px;
+       background: #29b6f6;
+       font-size: 1.5rem;
+       font-weight: 900;
+       width: 100%;
+       text-align: center;
+       border-top-left-radius: 20px;
+       border-top-right-radius: 20px;
+     }
+     #day{
+       text-align: center;
+       text-decoration-style: underline;
+       
+     }
+     .quote-contents{
+       display: flex;
+       justify-content: center;
+       text-align: center;
+       margin: 0 5px 0 5px;
+       
+     }
+     .quote-contents i:first-child{
+       margin: 3px 10px 0 0;
+       font-size: 25px;
+       
+     }
+     
+     .quote-contents i:last-child{
+       margin: 0 0 3px 10px;
+       display: flex;
+       align-items: flex-end;
+       font-size: 25px;
+     }
+     .quote-contents .quote{
+       font-size: 1.0rem;
+       word-break: break-all;
+     }
+     .author{
+       display: flex;
+       justify-content: flex-end;
+       font-style: italic;
+       font-size: 15px;
+       margin: 10px;
+       opacity: 0.6;
+     }
+     .author span:first-child{
+       margin: -6px 5px 0 0;
+       font-family: monospace;
+     }
+     .buttons .functions{
+       display: flex;
+       align-items: center;
+       justify-content: space-between;
+       margin-top: 20px;
+     }
+     .functions ul{
+       display: flex;
+     }
+     .functions ul li{
+       width: 30px;
+       height: 30px;
+       list-style: none;
+       border-radius: 50%;
+       border: 2px solid #29b6f6;
+       display: flex;
+       align-items: center;
+       justify-content: center;
+       margin: 0 5px;
+       margin-top: -10px;
+       cursor: pointer;
+       color: #29b6f6;
+       transition: all 0.3 eas;
+     }
+     .functions ul li:first-child{
+       margin-left: 0;
+     }
+    
+     :is(ul) li:hover, .active{
+       color: #fff;
+       background: #29b6f6;
+       outline: none;
+     }
+     .buttons button{
+       width: 100px;
+       height: 30px;
+       background: #29b6f6;
+       color: #fff;
+       border: none;
+       outline: none;
+       border-radius: 20px;
+       cursor: pointer;
+       margin: -10px 10px 5px 0;
+     }
+     .buttons .loading{
+       pointer-events: none;
+       opacity: 0.7;
+     }
+     hr{
+       width: 80%;
+     }
